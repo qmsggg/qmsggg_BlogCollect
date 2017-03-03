@@ -63,4 +63,7 @@ public <T> T[] toArray(T[] a) {
         a[size] = null;
     return a;
 }
-```
+```  
+
+## 遗留问题
+`System.arraycopy()`和`Arrays.copyof()`的实现和区别？
