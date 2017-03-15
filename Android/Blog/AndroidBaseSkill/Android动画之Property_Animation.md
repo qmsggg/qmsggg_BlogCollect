@@ -40,3 +40,31 @@
 - `TypeEvaluator`  实现此接口的实例，将决定`AnimatorUpdateListener`接收到的值。
 
 这里有必要说明一下，上面对动画的描述是“运行”，而不是“播放”。因为属性动画的本质是在指定的时间内于指定的值之间过度。这就意味着他并不仅限于`View`控件。举例来说，他可以是一个不断运动的看不见的点，而你在需要的时候可以通过回调知道在某一时间点对应的值，从而进行`canvas`的绘制。
+
+## `ObjectAnimator`
+```
+private void runAnimator(View view) {
+    //旋转
+    String rotationX = "rotationX";
+    String rotationY = "rotationY";
+    //渐变
+    String alpha = "alpha";
+    //缩放
+    String scale = "scale";
+    String scaleX = "scaleX";
+    String scaleY = "scaleY";
+    //移动
+    String translationX = "translationX";
+    String translationY = "translationY";
+
+    ObjectAnimator.ofFloat(view, rotationX, 0.0f, 360f)
+            .setDuration(2000)
+            .start();
+}
+```
+`ObjectAnimator` 提供了`ofInt`、`ofFloat`、`ofObject`
+
+他们都是设置(动画作用的元素、动画名称、动画开始、结束、以及中间的任意个属性值)，这就意味着可以传任意多个值，动画会依次作用在对应的值上。
+
+可以看出，他除了是以动画方式改变`View`形态之外，跟`ViewAnimator`没什么区别了。
+他可以看做是`Animator`家族中的上层了，被封装过，使用简单，又兼备了属性动画的特性，
