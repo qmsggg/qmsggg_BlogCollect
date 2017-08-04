@@ -4,10 +4,38 @@
 
 ## 主流的图片加载库-介绍
 - Universal-Image-Loader
-- Picasso
+- AndroidQuery : ImageLoading
+- DroidParts : ImageFetcher
 - Fresco
 - Glide
+- Picasso
+- UrlImageViewHelper
+- Volley : ImageLoader
 
-### Universal-Image-Loader
+### Universal-Image-Loader(uil)
 ####  1.[github](https://github.com/nostra13/Android-Universal-Image-Loader.git)
-#### 2.使用方式：
+#### 2.介绍
+`uil` 是一个开源的UI组件，该项目提供了一个可重复使用的图片加载库，可以异步加载，缓存和显示图像。
+#### 3.特点
+- 多线程的图像加载
+- 的可能性的宽调谐对`ImageLoader`的配置（线程池的大小，`HTTP`选项，内
+- 存和光盘高速缓存，显示图像，以及其他）
+- 的图像的可能性中的缓存存储器和/或设备的文件器系统（或`SD`卡）
+- 可以“听”加载过程中
+- 可自定义每个显示的图像调用分隔的选项
+- `Widget`支持
+- `android 1.5`以上支持
+- 项目的结构: 每一个图片的加载和显示任务都运行在独立的线程中，除非这个图片缓存在内存中，这种情况下图片会立即显示。如果需要的图片缓存在本地，他们会开启一个独立的线程队列。如果在缓存中没有正确的图片，任务线程会从线程池中获取，因此，快速显示缓存图片时不会有明显的障碍。
+- 流程图
+
+  ![ImageLoader](image/ImageLoader.png)
+
+### Glide
+#### 1.[github](https://github.com/bumptech/glide)
+#### 2.介绍
+实现图片加载
+#### 3.特点
+
+![Glide](image/glide.png)
+
+从上面可以看出，Glide不仅实现了图片异步加载的功能，还解决了Android中加载图片时需要解决的一些常见问题
