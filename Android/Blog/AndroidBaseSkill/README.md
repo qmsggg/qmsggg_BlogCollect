@@ -7,3 +7,4 @@
 * `Android`动画之`Drawable_Animation`
 * `Android`动画之基础知识
 * `Android`动画之`Property_Animation`
+* `Android View`的生命周期
