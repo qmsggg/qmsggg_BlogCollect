@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>jQuery控制CSS样式</title>
+  <script language="javascript" type="text/javascript" src="library/jquery-3.2.1.js"></script>
+  <style type="text/css">
+    .divDefalut {
+      width: 260px;
+      font-size: 10pt;
+      padding: 5px
+    }
+
+    .divClick {
+      width: 260px;
+      border: solid 1px #666;
+      font-size: 10pt;
+      background-color: #eee;
+      padding: 5px
+    }
+  </style>
+  <script type="text/javascript">
+    $(function() {
+      $(".divDefalut").click(function() {
+        $(this).toggleClass("divClick").html("点击后的样式")
+      })
+    })
+  </script>
+</head>
+
+<body>
+  <div class="divDefalut">点击前的样式</div>
+</body>
+
+</html>

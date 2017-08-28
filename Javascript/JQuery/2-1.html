@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>使用Javascript实现隔行变色</title>
+  <script language="javascript" type="text/javascript" src="library/jquery-3.2.1.js"></script>
+  <style type="text/css">
+    body {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    #tbStu {
+      width: 260px;
+      border: solid 1px #666;
+      background-color: #eee;
+    }
+
+    #tbStu tr {
+      line-height: 23px
+    }
+
+    #tbStu tr th {
+      background-color: #ccc;
+      color: #fff
+    }
+
+    #tbStu .trOdd {
+      background-color: #fff
+    }
+  </style>
+  <!--普通实现-->
+  <!--<script type="text/javascript">
+    window.onload = function() {
+      var oTb = document.getElementById("tbStu");
+      for (var i = 0; i < oTb.rows.length - 1; i++) {
+        if (i % 2) {
+          oTb.rows[i].className = "trOdd";
+        }
+      }
+    }
+    </script>
+  -->
+  <!--jQuery实现-->
+  <script type="text/javascript">
+    $(function() {
+      $("#tbStu tr:nth-child(even)").addClass("trOdd");
+    });
+  </script>
+</head>
+
+<body>
+  <table id="tbStu" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>学分</th>
+      </tr>
+      <tr>
+        <td>1001</td>
+        <td>张小明</td>
+        <td>男</td>
+        <td>320</td>
+      </tr>
+      <tr>
+        <td>1002</td>
+        <td>李明琪</td>
+        <td>女</td>
+        <td>350</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
