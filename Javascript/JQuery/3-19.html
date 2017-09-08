@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>数据删除和图片预览在项目中的应用</title>
+    <script type="text/javascript" language="javascript" src="library/jquery-3.2.1.js">
+
+    </script>
+    <style type="text/css" media="screen">
+      body {
+        font-size: 12px;
+      }
+
+      table {
+        width: 360px;
+        border-collapse: collapse;
+      }
+
+      table tr th, td {
+        border: solid 1px #666;
+        text-align: center;
+      }
+
+      table tr td img {
+        border: solid 1px #ccc;
+        padding: 3px;
+        width: 80px;
+        height: 90px;
+        cursor:hand;
+      }
+
+      table tr td span {
+        float: left;
+        padding-left: 12px;
+      }
+
+      table tr th {
+        background-color: #ccc;
+        height: 32px;
+      }
+
+      .clsImg {
+        position: absolute;
+        border: solid 1px #ccc;
+        padding: 3px;
+        width: 150px;
+        height: 160px;
+        background-color: #eee;
+        display: none;
+      }
+
+      .btn {
+        border: #666 1px solid;
+        padding: 2px;
+        width: 50px;
+        text-align: center;
+
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+          StartColorStr=#ffffff, EndColorStr=#ECE9D8);
+      }
+    </style>
+    <script type="text/javascript">
+      $(function () {
+        $("table tr:nth-child(odd)")
+        .css("background-color", "#eee");
+
+        $("#chkAll").click(function () {
+          if (this.checked) {
+            $("table tr td input[type=checkbox]").attr("checked", true);
+          } else {
+            $("table tr td input[type=checkbox]").attr("checked", false);
+          }
+        })
+
+        $("#btnDel").click(function () {
+          var intL = $("table tr td input:checked:not('#chkAll')").length;
+          if (intL != 0) {
+            $("table tr td input[type=checkbox]:not('#chkAll')").each(function (index) {
+              if (this.checked) {
+                $("table tr[id=" + this.value + "]").remove();
+              }
+            })
+          }
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>选项</th>
+        <th>编号</th>
+        <th>封面</th>
+        <th>购书人</th>
+        <th>性别</th>
+        <th>购书价</th>
+      </tr>
+      <tr id="0">
+        <td><input type="checkbox" id="Checkbox1" name="" value="0"></td>
+        <td>1001</td>
+        <td><img src="image/loading.gif" alt=""></td>
+        <td>李晓明</td>
+        <td>男</td>
+        <td>35.60</td>
+      </tr>
+      <tr id="1">
+        <td><input type="checkbox" id="Checkbox2" name="" value="1"></td>
+        <td>1001</td>
+        <td><img src="image/loading.gif" alt=""></td>
+        <td>李晓明</td>
+        <td>男</td>
+        <td>35.60</td>
+      </tr>
+      <tr id="2">
+        <td><input type="checkbox" id="Checkbox2" name="" value="2"></td>
+        <td>1001</td>
+        <td><img src="image/loading.gif" alt=""></td>
+        <td>李晓明</td>
+        <td>男</td>
+        <td>35.60</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td style="text-align:left;height:28px">
+          <span><input id="chkAll" type="checkbox" name="" value="">全选</span>
+          <span><input id="btnDel" type="button" name="" value="删除" class="btn"></span>
+        </td>
+      </tr>
+    </table>
+    <img id="imgTip" class="clsImg" src="image/meinv.jpeg" alt="">
+  </body>
+</html>

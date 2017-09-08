@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>导航条在项目中的应用</title>
+    <script language="javascript" type="text/javascript" src="library/jquery-3.2.1.js">
+
+    </script>
+
+    <style type="text/css">
+      body {
+        font-size: 13px;
+      }
+
+      #divFrame{
+        border: solid 1px #666;
+        width: 301px;
+        overflow: hidden;
+      }
+
+      #divFrame .clsHead{
+        background-color: #eee;
+        padding: 8px;
+        height: 18px;
+        cursor: hand;
+      }
+
+      #divFrame .clsHead h3 {
+        padding: 0px;
+        margin: 0px;
+        float: left;
+      }
+
+      #divFrame .clsHead span {
+        float: right;
+      }
+
+      #divFrame .clsContent {
+        padding: 8px;
+      }
+
+      #divFrame .clsContent ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      #divFrame .clsContent ul li {
+        float: left;
+        width: 95px;
+        height: 23px;
+        line-height: 23px;
+      }
+
+      #divFrame .clsBot {
+        float: right;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .GetFocus {
+        background-color: #eee;
+      }
+    </style>
+
+    <script type="text/javascript">
+      $(function () {
+        $(".clsHead").click(function () {
+          if ($(".clsContent").is(":visible")) {
+            $(".clsHead span img").attr("src", "image/arrow-down.png")
+            $(".clsContent").css("display", "none");
+          } else {
+            $(".clsHead span img").attr("src", "image/arrow-up.png");
+            $(".clsContent").css("display", "block")
+          }
+        });
+
+        $(".clsBot > a").click(function () {
+          if ($(".clsBot > a").text()=="简化") {
+            $("ul li:gt(4):not(:last)").hide();
+            $(".clsBot > a").text("更多");
+          } else {
+            $("ul li:gt(4):not(:last)").show().addClass("GetFocus");
+            $(".clsBot > a").text("简化");
+          }
+        })
+      });
+    </script>
+  </head>
+  <body>
+
+  <div id="divFrame">
+    <div class="clsHead">
+      <h3>图书分类</h3>
+      <span><img src="image/arrow-up.png" alt=""></span>
+    </div>
+    <div class="clsContent">
+      <ul>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">小说</a><i>( 1110 )</i></li>
+        <li><a href="#">其他类</a><i>( 1110 )</i></li>
+      </ul>
+    </div>
+    <div class="clsBot">
+      <a href="#">简化</a>
+    </div>
+  </div>
+
+  </body>
+</html>

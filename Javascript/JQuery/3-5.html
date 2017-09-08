@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>设置或获取元素的内容</title>
+  <script language="javascript" type="text/javascript" src="library/jquery-3.2.1.js">
+  </script>
+  <style type="text/css" media="screen">
+    body {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    div {
+      border: solid 1px #666;
+      padding: 5px;
+      width: 220px;
+      margin: 5px;
+    }
+  </style>
+
+  <script type="text/javascript">
+    $(function () {
+      var strHTML = $(".divShow").html();
+      var strText = $(".divShow").text();
+      $("#divHTML").text(strHTML);
+      $("#divText").text(strText);
+    })
+  </script>
+</head>
+
+<body>
+  <div class="divShow"><b><i>Write Less Do More</i></b>
+
+  </div>
+
+  <div id="divHTML">
+
+  </div>
+
+  <div id="divText">
+
+  </div>
+</body>
+
+</html>

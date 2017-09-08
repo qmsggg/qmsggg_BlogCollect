@@ -40,6 +40,28 @@
         line-height: 23px;
       }
     </style>
+    <script type="text/javascript">
+      // $(function () {
+      //   $("li:first").addClass("GetFocus");
+      // })
+      // $(function () {
+      //   $("li:last").addClass("GetFocus");
+      // })
+      // $(function () {
+      //   $("li:not(.NotClass)").addClass("GetFocus");
+      // })
+      // $(function () {
+      //   // $("div h1").css("width", "238");
+      //   // $(":header").addClass("GetFocus");
+      // })
+      function animateIt() {
+        $("#spnMove").slideToggle("slow", animateIt);
+      }
+      $(function () {
+        animateIt();
+        $("#spnMove:animated").addClass("GetFocus");
+      })
+    </script>
   </head>
   <body>
     <div>
@@ -50,6 +72,7 @@
         <li class="NotClass">Item 2</li>
         <li class="DefClass">Item 3</li>
       </ul>
+      <span id="spnMove">Span Move</span>
     </div>
   </body>
 </html>
