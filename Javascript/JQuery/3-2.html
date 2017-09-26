@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>获取元素的属性</title>
+  <script language="javascript" type="text/javascript" src="library/jquery-3.2.1.js">
+  </script>
+
+  <style type="text/css" media="screen">
+    body {
+      font-size: 12px;
+    }
+
+    div {
+      float: left;
+      padding-left: 10px;
+    }
+
+    img {
+      border: solid 1px #ccc;
+      padding: 3px;
+      float: left;
+    }
+  </style>
+
+  <script type="text/javascript">
+    $(function () {
+      var strAlt = $("img").attr("src");
+      strAlt += "<br/>" + $("img").attr("title");
+      $("#divAlt").html(strAlt);
+    })
+  </script>
+</head>
+
+<body>
+  <img src="image/arrow-up.png" alt="" title="arrow-up">
+  <div id="divAlt">
+
+  </div>
+</body>
+
+</html>

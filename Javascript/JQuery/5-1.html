@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>show() and hide()</title>
+  <script type="text/javascript" language="javascript" src="library/jquery-3.2.1.js">
+  </script>
+
+  <style media="screen" type="text/css">
+    body {
+      font-size: 13px;
+    }
+
+    .artFram {
+      border: solid 1px #ccc;
+      background-color: #eee;
+      width: 260px;
+      padding: 8px;
+      word-break: break-all;
+    }
+
+    .artList {
+      line-height: 1.8em
+    }
+  </style>
+
+  <script type="text/javascript">
+    $(function() {
+      var $link = $(".artList a");
+      var $hide = $(".artList :eq(2)");
+      $link.click(function() {
+        if ($(this).html() == "显示") {
+          $(this).html("隐藏");
+          $hide.show();
+        } else {
+          $(this).html("显示");
+          $hide.hide();
+        }
+      })
+    })
+  </script>
+</head>
+
+<body>
+  <div class="artFram">
+    <div class="artList">
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span>一个优秀的程序开发员，除了需要掌握专业的开发语言，还有具有</span>
+      <span style="display:none">执着，沉稳，细致的专业素质。</span> &nbsp;
+      <a href="javascript:void(0)">显示</a>
+    </div>
+  </div>
+</body>
+
+</html>

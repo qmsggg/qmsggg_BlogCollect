@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>jQuery事件的链式写法</title>
+  <script language="javascript" type="text/javascript" src="library/jquery-3.2.1.js"></script>
+  <style type="text/css">
+    .divFrame {
+      width: 260px;
+      border: solid 1px #666;
+      font-size: 10pt
+    }
+
+    .divTitle {
+      background-color: #eee;
+      padding: 5px
+    }
+
+    .divContent {
+      padding: 5px;
+      display: none
+    }
+
+    .divCurrColor {
+      background-color: Red
+    }
+  </style>
+  <script type="text/javascript">
+    $(function() {
+      $(".divTitle").click(function() {
+        $(this).addClass("divCurrColor")
+          .next(".divContent").css("display", "block");
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="divFrame">
+    <div class="divTitle"> 主题 </div>
+    <div class="divContent">
+      <a href="#"> 链接一 </a><br />
+      <a href="#"> 链接二 </a><br />
+      <a href="#"> 链接三 </a><br />
+    </div>
+  </div>
+</body>
+
+</html>
