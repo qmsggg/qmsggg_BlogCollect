@@ -20,7 +20,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ### 开源库 🔧
 
 ## MY
-- [Android开发之旅]()
+- [Android开发之旅](https://github.com/qmsggg/qmsggg_BlogCollect/tree/master/MyStudyRecoder)
 
 ## 新闻 📃
 
