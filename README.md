@@ -4,6 +4,8 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ## 官方资源 💼
 - 👨 [Android 开发技术文档](https://developer.android.google.cn/)
 - 🏃 [Android 开发者博客](https://android-developers.googleblog.com/)
+- 👨 [Android 官网](https://developer.android.com/studio/index.html)
+- 🏃 [Android 开发技术周报](https://www.androidweekly.cn/)
 
 ## 第三方资源
 
@@ -21,6 +23,8 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 
 ## MY
 - [Android开发之旅](https://github.com/qmsggg/qmsggg_BlogCollect/tree/master/MyStudyRecoder)
+## 日常关注的网站
+- [Get社区](http://get.ftqq.com/?c=default)
 
 ## 新闻 📃
 
