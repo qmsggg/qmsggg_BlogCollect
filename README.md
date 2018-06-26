@@ -33,6 +33,10 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 - [Get社区](http://get.ftqq.com/?c=default)
 - [技术社交网站](https://github.com/qmsggg/qmsggg_BlogCollect/issues/16)
 
+## 艺术气质
+- [摄影]()
+- [gitter]()
+
 ## 新闻 📃
 
 ## 视频 🎥
