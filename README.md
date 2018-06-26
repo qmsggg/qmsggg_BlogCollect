@@ -27,6 +27,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
+- [技术社交网站](https://github.com/qmsggg/qmsggg_BlogCollect/issues/16)
 
 ## 新闻 📃
 
