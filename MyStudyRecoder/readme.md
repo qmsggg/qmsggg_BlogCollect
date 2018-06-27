@@ -1,4 +1,4 @@
-# Android开发之旅
+# Android 基础开发之旅
 
 ## View
 
@@ -60,7 +60,4 @@
 
 ## 异常
 - [java.lang.annotation.AnnotationFormatError](https://github.com/qmsggg/qmsggg_BlogCollect/issues/37)
-
-# Android进阶之旅
-- [Android进阶之旅](https://github.com/qmsggg/qmsggg_BlogCollect/issues/186)
 
