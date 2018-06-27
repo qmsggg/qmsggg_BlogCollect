@@ -27,7 +27,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ```
 
 ### 书籍
--[阿里巴巴 Android 开发手册](https://github.com/qmsggg/qmsggg_BlogCollect/issues/145)
+- [阿里巴巴 Android 开发手册](https://github.com/qmsggg/qmsggg_BlogCollect/issues/145)
 
 ## MY
 - [Android开发之旅](https://github.com/qmsggg/qmsggg_BlogCollect/tree/master/MyStudyRecoder)
