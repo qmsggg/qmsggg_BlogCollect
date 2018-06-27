@@ -28,7 +28,9 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 - [Android 书籍阅读](https://github.com/qmsggg/qmsggg_BlogCollect/issues/17)
 - [Android App研发录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/36)
 - [工作中犯的错误记录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/18)
-- [日常感悟](#)
+- [日常感悟](https://github.com/qmsggg/qmsggg_BlogCollect/issues/63)
+- [最喜欢的名言收录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/64)
+- [图片收集](https://github.com/qmsggg/qmsggg_BlogCollect/issues/65)
 
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
