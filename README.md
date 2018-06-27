@@ -14,6 +14,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 - [Android](https://github.com/android)
 - [androidxref](http://androidxref.com/)
 - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/)
+- [Android源码阅读和分析介绍](https://github.com/qmsggg/qmsggg_BlogCollect/issues/117)
 
 ### 博客
 
@@ -25,6 +26,9 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 业界首个支持渐进式组件化改造的Android组件化开源框架。
 ```
 
+### 书籍
+-[阿里巴巴 Android 开发手册](https://github.com/qmsggg/qmsggg_BlogCollect/issues/145)
+
 ## MY
 - [Android开发之旅](https://github.com/qmsggg/qmsggg_BlogCollect/tree/master/MyStudyRecoder)
 - [Android进阶之旅](https://github.com/qmsggg/qmsggg_BlogCollect/issues/186)
@@ -33,6 +37,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 - [Android App研发录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/36)
 - [工作中犯的错误记录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/18)
 - [日常感悟](https://github.com/qmsggg/qmsggg_BlogCollect/issues/63)
+  - [40条真言，希望对进阶中的程序朋友有所帮助](https://github.com/qmsggg/qmsggg_BlogCollect/issues/169)
 - [最喜欢的名言收录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/64)
 - [图片收集](https://github.com/qmsggg/qmsggg_BlogCollect/issues/65)
 
@@ -51,6 +56,16 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
   - [零基础如何自学吉他？](https://www.zhihu.com/question/19612472)
 
 ## 新闻 📃
+- [浅谈Android进阶之路](https://github.com/qmsggg/qmsggg_BlogCollect/issues/148)
+- [快应用实践与资讯](https://github.com/qmsggg/qmsggg_BlogCollect/issues/154)
+- [如何快速成长为技术大牛？阿里资深技术专家的总结亮了](https://github.com/qmsggg/qmsggg_BlogCollect/issues/170)
+
+## 面试(后面放到面试专题)
+- [面试技巧](https://github.com/qmsggg/qmsggg_BlogCollect/issues/149)
+- [网络面试题](https://github.com/qmsggg/qmsggg_BlogCollect/issues/151)
+- [Android面试题](https://github.com/qmsggg/qmsggg_BlogCollect/issues/152)
+- [我所经历的Android面试](https://github.com/qmsggg/qmsggg_BlogCollect/issues/168)
+- [Android面试指南](https://github.com/qmsggg/qmsggg_BlogCollect/issues/179)
 
 ## 视频 🎥
 
