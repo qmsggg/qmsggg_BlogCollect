@@ -33,7 +33,8 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 - [图片收集](https://github.com/qmsggg/qmsggg_BlogCollect/issues/65)
 
 ## 开源库计划 
-- [Java修炼直到](https://github.com/qmsggg/qmsggg_java/blob/master/README.md)
+- [Java修炼之道](https://github.com/qmsggg/qmsggg_java/blob/master/README.md)
+- [Flutter修炼之道](https://github.com/qmsggg/qmsggg_flutter)
 
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
