@@ -50,6 +50,7 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - [Java修炼之道](https://github.com/qmsggg/qmsggg_java/blob/master/README.md)
 - [Flutter修炼之道](https://github.com/qmsggg/qmsggg_flutter)
 - [区块链技术](https://github.com/qmsggg/qmsggg_blockchain)
+- [书籍阅读整体把握计划库](https://github.com/qmsggg/qmsggg_book_sche)
 
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
