@@ -39,6 +39,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ## 艺术气质
 - [摄影]()
 - [guitar]()
+  - [零基础如何自学吉他？](https://www.zhihu.com/question/19612472)
 
 ## 新闻 📃
 
