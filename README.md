@@ -63,11 +63,11 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - [工具类](https://github.com/qmsggg/qmsggg_others)
 
 ## 计划安排
-[ ] 完成安卓未完成的技术分析
-[ ] 完成NOTEWZI笔记内容的整理
-[ ] 深入Linux内核学习（工作需要必须抓紧）
-[ ] TCP／IP深入学习（工作需要必须抓紧）
-[ ] 完成Flutter基础的学习
+- [ ] 完成安卓未完成的技术分析
+- [ ] 完成NOTEWZI笔记内容的整理
+- [ ] 深入Linux内核学习（工作需要必须抓紧）
+- [ ] TCP／IP深入学习（工作需要必须抓紧）
+- [ ] 完成Flutter基础的学习
 
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
