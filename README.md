@@ -62,7 +62,7 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - 🐶 [书籍阅读整体把握计划库](https://github.com/qmsggg/qmsggg_book_sche)
 - 🐶 [工具类](https://github.com/qmsggg/qmsggg_others)
 
-⚠️：🌟是最近1-2年的学习重点，🐶是次要的；
+⚠️：🌟是最近1-2年的学习重点，🐶是次要的，具体任务怎么拆分，拆分粒度怎样，这个后续继续深入。
 
 ## 最近计划安排
 - [ ] 完成安卓未完成的技术分析
@@ -70,6 +70,8 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - [ ] 深入Linux内核学习（工作需要必须抓紧）
 - [ ] TCP／IP深入学习（工作需要必须抓紧）
 - [ ] 完成Flutter基础的学习
+
+⚠️：具体每天计划详见各领域事件安排，每天不求学习量大，最好是有收获就行；
 
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
