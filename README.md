@@ -54,7 +54,6 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - 🐶 [IOS修炼之道](https://github.com/qmsggg/qmsggg_ios)
 - 🌟 [Linux修炼之道](https://github.com/qmsggg/qmsggg_linux)
 - 🌟 [C++修炼之道](https://github.com/qmsggg/qmsggg_cplusplus)
-- 🌟 [网络修炼之道](https://github.com/qmsggg/qmsggg_internet)
 - 🐶 [数据结构与算法修炼之道](https://github.com/qmsggg/qmsggg_data_structure_and_algorithm)
 - 🌟 [设计模式、重构、软件工程修炼之道](https://github.com/qmsggg/qmsggg_DesignPattern_Refactor_SE)
 - 🐶 [Web修炼之道](https://github.com/qmsggg/qmsggg_FullStackDevelopment)
