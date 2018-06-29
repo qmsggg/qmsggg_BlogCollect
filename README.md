@@ -41,16 +41,29 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - [Android 书籍阅读](https://github.com/qmsggg/qmsggg_BlogCollect/issues/17)
 - [Android App研发录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/36)
 - [工作中犯的错误记录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/18)
-- [日常感悟](https://github.com/qmsggg/qmsggg_BlogCollect/issues/63)
+- [日常感悟](https://github.com/qmsggg/qmsggg_Daily_Life/issues/1)
   - [40条真言，希望对进阶中的程序朋友有所帮助](https://github.com/qmsggg/qmsggg_BlogCollect/issues/169)
 - [最喜欢的名言收录](https://github.com/qmsggg/qmsggg_BlogCollect/issues/64)
 - [图片收集](https://github.com/qmsggg/qmsggg_BlogCollect/issues/65)
 
-## 开源库计划 
+## 计划 
 - [Java修炼之道](https://github.com/qmsggg/qmsggg_java/blob/master/README.md)
 - [Flutter修炼之道](https://github.com/qmsggg/qmsggg_flutter)
 - [区块链技术](https://github.com/qmsggg/qmsggg_blockchain)
 - [书籍阅读整体把握计划库](https://github.com/qmsggg/qmsggg_book_sche)
+- [Security](https://github.com/qmsggg/qmsggg_HackingAndSecurity)
+- [FullStackDevelopment](https://github.com/qmsggg/qmsggg_FullStackDevelopment/blob/master/README.md)
+- [Python](https://github.com/qmsggg/qmsggg_python)
+- [IOS](https://github.com/qmsggg/qmsggg_ios)
+- [Linux](https://github.com/qmsggg/qmsggg_linux)
+- [工具类](https://github.com/qmsggg/qmsggg_others)
+- [Java](https://github.com/qmsggg/qmsggg_java)
+- [C++](https://github.com/qmsggg/qmsggg_cplusplus)
+- [AI_AND_ML](https://github.com/qmsggg/qmsggg_ai_and_ml)
+- [网络](https://github.com/qmsggg/qmsggg_internet)
+- [数据结构与算法](https://github.com/qmsggg/qmsggg_data_structure_and_algorithm)
+- [设计模式、重构、软件工程](https://github.com/qmsggg/qmsggg_DesignPattern_Refactor_SE)
+- [大数据与云](https://github.com/qmsggg/qmsggg_bigdata_and_clould)
 
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
