@@ -47,20 +47,21 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - [图片收集](https://github.com/qmsggg/qmsggg_BlogCollect/issues/65)
 
 ## Others 
-- 🔧 [Java修炼之道](https://github.com/qmsggg/qmsggg_java/blob/master/README.md)
-- 🔧 [Flutter修炼之道](https://github.com/qmsggg/qmsggg_flutter)
-- [Security修炼之道](https://github.com/qmsggg/qmsggg_HackingAndSecurity)
-- [Python修炼之道](https://github.com/qmsggg/qmsggg_python)
-- [IOS修炼之道](https://github.com/qmsggg/qmsggg_ios)
-- 🔧 [Linux修炼之道](https://github.com/qmsggg/qmsggg_linux)
-- 🔧 [C++修炼之道](https://github.com/qmsggg/qmsggg_cplusplus)
-- 🔧 [网络修炼之道](https://github.com/qmsggg/qmsggg_internet)
-- [数据结构与算法修炼之道](https://github.com/qmsggg/qmsggg_data_structure_and_algorithm)
-- 🔧 [设计模式、重构、软件工程修炼之道](https://github.com/qmsggg/qmsggg_DesignPattern_Refactor_SE)
-- [Web修炼之道](https://github.com/qmsggg/qmsggg_FullStackDevelopment/blob/master/README.md)
-- 🔧 [区块链修炼之道](https://github.com/qmsggg/qmsggg_blockchain)
-- [书籍阅读整体把握计划库](https://github.com/qmsggg/qmsggg_book_sche)
-- [工具类](https://github.com/qmsggg/qmsggg_others)
+- 🌟 [Java修炼之道](https://github.com/qmsggg/qmsggg_java/blob/master/README.md)
+- 🌟 [Flutter修炼之道](https://github.com/qmsggg/qmsggg_flutter)
+- 🐶 [Security修炼之道](https://github.com/qmsggg/qmsggg_HackingAndSecurity)
+- 🐶 [Python修炼之道](https://github.com/qmsggg/qmsggg_python)
+- 🐶 [IOS修炼之道](https://github.com/qmsggg/qmsggg_ios)
+- 🌟 [Linux修炼之道](https://github.com/qmsggg/qmsggg_linux)
+- 🌟 [C++修炼之道](https://github.com/qmsggg/qmsggg_cplusplus)
+- 🌟 [网络修炼之道](https://github.com/qmsggg/qmsggg_internet)
+- 🐶 [数据结构与算法修炼之道](https://github.com/qmsggg/qmsggg_data_structure_and_algorithm)
+- 🌟 [设计模式、重构、软件工程修炼之道](https://github.com/qmsggg/qmsggg_DesignPattern_Refactor_SE)
+- 🐶 [Web修炼之道](https://github.com/qmsggg/qmsggg_FullStackDevelopment/blob/master/README.md)
+- 🌟 [区块链修炼之道](https://github.com/qmsggg/qmsggg_blockchain)
+- 🐶 [书籍阅读整体把握计划库](https://github.com/qmsggg/qmsggg_book_sche)
+- 🐶 [工具类](https://github.com/qmsggg/qmsggg_others)
+⚠️：🌟是最近1-2年的学习重点，🐶是次要的；
 
 ## 计划安排
 - [ ] 完成安卓未完成的技术分析
