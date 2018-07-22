@@ -31,6 +31,12 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 自己fork下来完成接下来的剩余SDK接口分析。
 ```
 
+### TOOLS
+- [dryrun](https://github.com/cesarferreira/dryrun)
+```
+说明： 使用dryrun工具可以直接从github地址就可以编译并运行AndroidApp工程
+```
+
 ### 书籍
 - [阿里巴巴 Android 开发手册](https://github.com/qmsggg/qmsggg_BlogCollect/issues/145)
 
