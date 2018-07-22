@@ -19,6 +19,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ### 博客
 
 - [老罗的Android之旅](https://blog.csdn.net/luoshengyang)
+-[Cesar Ferreira Senior Android Engineer](http://cesarferreira.com/)
 
 ### 关注的开源库 🔧
 - [CC](https://github.com/luckybilly/CC?utm_source=gold_browser_extension)
