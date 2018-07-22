@@ -116,6 +116,10 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 - [Android面试题](https://github.com/qmsggg/qmsggg_BlogCollect/issues/152)
 - [我所经历的Android面试](https://github.com/qmsggg/qmsggg_BlogCollect/issues/168)
 - [Android面试指南](https://github.com/qmsggg/qmsggg_BlogCollect/issues/179)
+#### 自己
+- [Android面试总结](https://github.com/qmsggg/qmsggg_BlogCollect/blob/master/MyStudyRecoder/InterviewQuestions.md)
+- [Android面试题收集](https://github.com/qmsggg/qmsggg_BlogCollect/issues/197)
+- [非技术面试题收集](https://github.com/qmsggg/qmsggg_BlogCollect/issues/198)
 
 ## 视频 🎥
 
