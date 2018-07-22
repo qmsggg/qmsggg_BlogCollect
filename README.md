@@ -36,6 +36,7 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 ```
 说明： 使用dryrun工具可以直接从github地址就可以编译并运行AndroidApp工程
 ```
+[dryrun工具安装使用教程](https://github.com/qmsggg/qmsggg_BlogCollect/issues/187)
 
 ### 书籍
 - [阿里巴巴 Android 开发手册](https://github.com/qmsggg/qmsggg_BlogCollect/issues/145)
