@@ -42,6 +42,19 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 ```
 [dryrun工具安装使用教程](https://github.com/qmsggg/qmsggg_BlogCollect/issues/187)
 
+- [pandora](https://github.com/whataa/pandora)
+```
+直接在应用内查看和修改：
+
+1. 查看所有数据库，支持直接进行增删改查操作；
+2. 查看并编辑所有Shared Preference；
+3. 查看自身应用的内部存储系统；
+4. 如果是okhttp 支持网络信息查看；
+5. 预览当前页面的视图层级、查看/修改常用控件的属性；
+6. 测量控件之间距离、检测是否对齐；
+7. 选中页面上的任意控件以移动位置、查看自身大小、显示相对关系；
+```
+
 ### 书籍
 - [阿里巴巴 Android 开发手册](https://github.com/qmsggg/qmsggg_BlogCollect/issues/145)
 
