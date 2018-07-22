@@ -1,1 +1,9 @@
-- Handler机制
+- [Handler机制](https://github.com/qmsggg/qmsggg_BlogCollect/issues/188)
+- [线程池](https://github.com/qmsggg/qmsggg_BlogCollect/issues/193)
+- [进程](https://github.com/qmsggg/qmsggg_BlogCollect/issues/192)
+- [Binder机制](https://github.com/qmsggg/qmsggg_BlogCollect/issues/191)
+- [事件传递机制](https://github.com/qmsggg/qmsggg_BlogCollect/issues/190)
+- [View的绘制](https://github.com/qmsggg/qmsggg_BlogCollect/issues/189)
+- [内存泄露](https://github.com/qmsggg/qmsggg_BlogCollect/issues/194)
+- [插件化](https://github.com/qmsggg/qmsggg_BlogCollect/issues/195)
+- [图片加载](https://github.com/qmsggg/qmsggg_BlogCollect/issues/196)
