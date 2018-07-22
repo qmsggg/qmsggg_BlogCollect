@@ -139,3 +139,6 @@
 
 # 动手实践
 - [ ] [高仿Android版今日头条](https://github.com/qmsggg/qmsggg_BlogCollect/issues/88)
+
+# android高级进阶之旅
+- [系统框架篇](https://github.com/qmsggg/qmsggg_BlogCollect/blob/master/MyStudyRecoder/MonographicStudy.md)
