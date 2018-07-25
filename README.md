@@ -60,7 +60,7 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 
 ## MY
 - [Android开发之旅](https://github.com/qmsggg/qmsggg_BlogCollect/tree/master/MyStudyRecoder)
-- [Android进阶计划](https://github.com/qmsggg/qmsggg_BlogCollect/issues/186)
+- [Android进阶之旅](https://github.com/qmsggg/qmsggg_BlogCollect/edit/master/MyStudyRecoder/AndroidAdvance.md)
 - [实践安排注意](https://github.com/qmsggg/qmsggg_BlogCollect/issues/199)
 - [Android 技术关注(每天必看)](https://github.com/qmsggg/qmsggg_BlogCollect/issues/15)
 - [Android 书籍阅读](https://github.com/qmsggg/qmsggg_BlogCollect/issues/17)
