@@ -7,3 +7,4 @@
 - [Android View的测量、布局、绘制流程源码分析及自定义View实例演示](https://www.jianshu.com/p/fd25d552c500?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 - [深入理解Android之View的绘制流程](https://www.jianshu.com/p/060b5f68da79?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 #### 总结
+- [Android UI绘制系列总结](https://github.com/qmsggg/qmsggg_BlogCollect/issues/200)
