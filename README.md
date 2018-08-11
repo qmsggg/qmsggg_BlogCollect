@@ -103,6 +103,7 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 ## 日常关注的网站
 - [Get社区](http://get.ftqq.com/?c=default)
 - [技术社交网站](https://github.com/qmsggg/qmsggg_BlogCollect/issues/16)
+- [简约导航网站](https://wht.im/)
 
 ## 艺术气质
 - [摄影]()
