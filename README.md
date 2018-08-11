@@ -101,6 +101,7 @@ android sdk 源码解析——旨在帮助Android开发者更好的学习Android
 ⚠️：具体每天计划详见各领域事件安排，每天不求学习量大，最好是有收获就行；
 
 ## 日常关注的网站
+- [v2ex](https://www.v2ex.com/)
 - [Get社区](http://get.ftqq.com/?c=default)
 - [技术社交网站](https://github.com/qmsggg/qmsggg_BlogCollect/issues/16)
 - [简约导航网站](https://wht.im/)
